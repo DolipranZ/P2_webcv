@@ -1,0 +1,113 @@
+/* Import des polices externes */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+
+/* Réglages généraux */
+
+#main_bloc {
+    min-height: 600px;
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    color: #3E2723;
+}
+
+#main_content {
+    margin: 10px 50px;
+}
+
+/* Sidebar */
+
+
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: #81D4FA;
+    height: inherit;
+    width: 320px;
+}
+
+.img_container {
+    padding: 30px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    border: 4px solid #29B6F6;
+    border-radius: 150px 150px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    color: #81D4FA;
+    background-color: #3E2723;
+}
+
+.aside_content {
+    margin-bottom: 20px;
+}
+
+.aside_content p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: center;
+}
+
+.hobbies i {
+    font-size: 2em;
+    border: 1px solid #3E2723;
+    border-radius: 1em 1em;
+    padding: 0.5em;
+    margin: 0 10px;
+}
+
+/* Titre */
+
+header
+{
+    margin: 75px 0;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 3.2em;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 2em;
+}
+
+#firstname {
+    color: #81D4FA;
+}
+
+#lastname {
+    color: #3E2723;
+}
+
+hr {
+    margin:0;
+    width: 95px;
+    height: 2px;
+    background-color: #81D4FA;
+    border: none;
+}
+
+/* Contenus */
