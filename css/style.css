@@ -251,6 +251,10 @@ section :nth-child(3) .element_date i{
 
     }
 
+    .element_date {
+        min-width: unset;
+    }
+
     .hobbies {
         display: none;
     }
