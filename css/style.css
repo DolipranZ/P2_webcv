@@ -214,3 +214,55 @@ section :nth-child(3) .element_date i{
 .referral_element :first-child {
     font-weight: bold;
 }
+
+/* Media queries */
+
+@media all and (max-width: 960px){
+
+    main {
+        flex-direction: column-reverse;
+    }
+
+    #main_content {
+        margin: 0px 5px;
+    }
+
+    aside {
+        flex-direction: row;
+        max-width: unset;
+    }
+
+    header {
+        margin-top : 5px;
+        margin-left: 15px;
+    }
+
+    .img_container
+    {
+        position: absolute;
+        top: 20px;
+        right: 10%;
+        width: 150px;
+    }
+
+    img {
+        width: 100%;
+
+    }
+
+    .hobbies {
+        display: none;
+    }
+
+    @media all and (max-width: 610px)
+    {
+        .img_container {
+            display:none;
+        }
+
+        aside {
+            flex-direction: column;
+        }
+    }
+
+}
